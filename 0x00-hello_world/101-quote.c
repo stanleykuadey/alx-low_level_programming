@@ -14,23 +14,13 @@
 
 int main(void)
 {
-	/**
-	 * This line declares an array of characters named quo 
-	 * and initializes it with a specific quote enclosed in
-	 * double quotes.
+	/*The line below uses the write function to write a message to
+	 * the standard error stream (stderr).
+	 * '2 is the file descriptor for the standard error
+	 * stream (stderr).
 	*/
 
-	char quo[] = "and that piece of art is useful\" - Dora
-		Korpar, 2015-10-19\n";
-
-	/**
-	 * This line uses the write function to write the contents
-	 * of the quo array to the standard output (file descriptor 1).
-	 * It specifies quo as the buffer to write, and 59 as the
-	 * number of bytes to write, which corresponds to the length
-	 * of the quote.
-	*/
-
-	write(1, quo, 59);
+	write(2, "and that piece of art is useful\" - Dora Korpar, 
+			2015-10-19\n", 59);
 	return (1);
 }
