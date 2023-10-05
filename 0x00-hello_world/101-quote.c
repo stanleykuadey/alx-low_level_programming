@@ -13,13 +13,10 @@
  */
 
 int main(void)
-{
-	/*The line below uses the write function to write a message to
-	 * the standard error stream (stderr).
-	 * '2 is the file descriptor for the standard error
-	 * stream (stderr).
-	*/
 
-	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
-	return(1);
+{
+    const char *message = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+    write(2, message, 59);  // Write the message to stderr
+    return 1;  // Return 1 to indicate an error
 }
+
