@@ -15,8 +15,8 @@
 int main(void)
 
 {
-    const char *message = "and that piece of art is useful\" - Dora Korpar, 2015-
-	    10-19\n";
+    const char *message = "and that piece of art is 
+	    "useful\" - Dora Korpar, 2015-10-19\n";
     write(2, message, 59); /* Write the message to stderr */
     return 1; /* Return 1 to indicate an error */
 }
