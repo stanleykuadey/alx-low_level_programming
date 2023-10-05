@@ -20,7 +20,7 @@ int main(void)
 	 * double quotes.
 	*/
 
-	char quo[] = "nd that piece of art is useful\" - Dora
+	char quo[] = "and that piece of art is useful\" - Dora
 		Korpar, 2015-10-19\n";
 
 	/**
