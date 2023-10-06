@@ -3,12 +3,12 @@
 #include <stdio.h>
 
 /**
- * Main - Entry point
+ * main - Entry point
  *
- * Description: A program to assign a random number to the variable n
- * each time it is executed; positive or negative.
+ * Description: This program generates a random integer and prints
+ * whether it is positive, zero, or negative.
  *
- * Return: Always 0 (Indicating that the program executed successfully
+ * Return: Always 0 (Indicating that the program executed successfully)
 */
 
 int main(void) /* Entry point of the program - 'main' function */
