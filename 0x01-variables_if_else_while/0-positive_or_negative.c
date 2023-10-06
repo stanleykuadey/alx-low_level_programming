@@ -11,6 +11,7 @@
  * Return: Always 0 (Indicating that the program executed successfully
 */
 
+/* Entry point of the program - 'main' functon */
 int main(void)
 {
 	int n;
