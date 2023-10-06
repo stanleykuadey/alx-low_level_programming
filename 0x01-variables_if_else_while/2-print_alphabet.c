@@ -22,7 +22,7 @@ int main(void)
 	}
 
 	/* Print a newline character to end the output */
-	putchar('\n')
+	putchar('\n');
 
 		return (0);
 }
