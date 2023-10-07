@@ -12,24 +12,24 @@
 */
 int main(void)
 {
-    char ch = 'a'; /* Initialize a character variable for lowercase 'a' */
-    char CH = 'A'; /* Initialize a character variable for uppercase 'A' */
+	char ch = 'a'; /* Initialize a character variable for lowercase 'a' */
+	char CH = 'A'; /* Initialize a character variable for uppercase 'A' */
 
-    /* Print lowercase alphabet */
-    while (ch <= 'z')
-    {
-        putchar(ch); /* Output the current lowercase character */
-        ++ch;        /* Move to the next lowercase character */
-    }
+	/* Print lowercase alphabet */
+	while (ch <= 'z')
+	{
+		putchar(ch); /* Output the current lowercase character */
+		++ch;        /* Move to the next lowercase character */
+	}
+	
+	/* Print uppercase alphabet */
+	while (CH <= 'Z')
+	{
+		putchar(CH); /* Output the current uppercase character */
+		++CH;        /* Move to the next uppercase character */
+	}
 
-    /* Print uppercase alphabet */
-    while (CH <= 'Z')
-    {
-        putchar(CH); /* Output the current uppercase character */
-        ++CH;        /* Move to the next uppercase character */
-    }
-
-    putchar('\n'); /* Print a newline character to end the line */
-
-    return (0);
+	putchar('\n'); /* Print a newline character to end the line */
+	
+	return (0);
 }
