@@ -3,8 +3,8 @@
 /**
  * main - Entry point of the program
  *
- * Description: This program prints the numbers from 0 to 9, separated by commas and
- * spaces.
+ * Description: This program prints the numbers from 0 to 9,
+ * separated by commas and spaces.
  *
  * Return: Always 0 (Indicating that the program executed successfully)
 */
