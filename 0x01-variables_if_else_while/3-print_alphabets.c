@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-/*
- * main - Entry point of the program
+/**
+ * main - Entry point of the program.
  *
  * Description:
  * This program prints the alphabet in lowercase followed by uppercase letters,
@@ -11,7 +11,7 @@
  * Always 0 (Indicating that the code executed successfully)
 */
 
-int main(void) /* Entry point of the program */
+int main(void)
 {
 	char ch = 'a'; /* Initialize a character variable for lowercase 'a' */
 	char CH = 'A'; /* Initialize a character variable for uppercase 'A' */
