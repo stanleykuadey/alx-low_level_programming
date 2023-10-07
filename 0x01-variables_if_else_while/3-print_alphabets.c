@@ -21,7 +21,7 @@ int main(void)
 		putchar(ch); /* Output the current lowercase character */
 		++ch;        /* Move to the next lowercase character */
 	}
-	
+
 	/* Print uppercase alphabet */
 	while (CH <= 'Z')
 	{
@@ -30,6 +30,6 @@ int main(void)
 	}
 
 	putchar('\n'); /* Print a newline character to end the line */
-	
+
 	return (0);
 }
