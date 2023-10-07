@@ -10,6 +10,7 @@
  * Return:
  * Always 0 (Indicating that the code executed successfully)
 */
+
 int main(void) /* Entry point of the program */
 {
 	char ch = 'a'; /* Initialize a character variable for lowercase 'a' */
