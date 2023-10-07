@@ -3,9 +3,9 @@
 /**
  * main - Entry point of the program
  *
- * Description: This program prints the lowercase hexadecimal numbers 
+ * Description: This program prints the lowercase hexadecimal numbers.
  * from '0' to 'f' using the putchar function.
- * 
+ *
  * Return: Always 0 (Indicating that the program executed successfully)
 */
 
