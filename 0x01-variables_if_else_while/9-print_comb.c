@@ -20,7 +20,7 @@ int main(void)
 		if (digit != 9)
 		{
 			putchar(','); /* Output a comman if the digit is not 9 */
-			putchar(','); /* Output a space after the comma */
+			putchar(' '); /* Output a space after the comma */
 		}
 
 		++digit; /* Increment the digit to move to the next one */
