@@ -15,7 +15,7 @@ int main(void)
 
 	while (digit <= 9)
 	{
-		putchar(digit +48); /* Output the current digit as a character */
+		putchar(digit + 48); /* Output the current digit as a character */
 
 		if (digit != 9)
 		{
