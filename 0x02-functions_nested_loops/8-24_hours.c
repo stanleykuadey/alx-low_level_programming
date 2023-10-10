@@ -17,10 +17,10 @@ void jack_bauer(void)
 		for (minute = 0; minute <= 59; minute++)
 		{
 			_putchar((hr / 10) + 48); /* Print tens digit of the hour */
-			_putchar((hour % 10) + 48); /* Print ones digit of the hour */
+			_putchar((hr % 10) + 48); /* Print ones digit of the hour */
 			_putchar(':');
-			_putchar((minute / 10) + 48); /* Print tens digit of the minute */
-			_putchar((minute % 10) + 48); /* Print ones digit of the minute */
+			_putchar((min / 10) + 48); /* Print tens digit of the minute */
+			_putchar((min % 10) + 48); /* Print ones digit of the minute */
 			_putchar('\n'); /* Print a newline character to create a new line */
 		}
 	}
