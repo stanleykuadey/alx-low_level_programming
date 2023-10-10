@@ -5,7 +5,8 @@
  *
  * @c: The character to check.
  *
- * Description: This function checks whether the inut character 'c' is lowercase.
+ * Description: This function checks whether the inut character 'c'
+ * is lowercase.
  *
  * Return: 1 if 'c' is lowercase, 0 otherwise (Indicating success)
 */
