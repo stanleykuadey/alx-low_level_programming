@@ -22,7 +22,7 @@ void print_alphabet_x10(void)
 				       * current character
 				      */
 		}
-		
+
 		_putchar('\n'); /* Print a newline character to create
 				 * a new line
 				*/
