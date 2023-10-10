@@ -19,10 +19,12 @@ void print_alphabet_x10(void)
 		for (ch = 'a'; ch <= 'z'; ++ch)
 		{
 			_putchar(ch); /* Call _putchar to print the
-					 current character */
+				       * current character
+				      */
 		}
 		
 		_putchar('\n'); /* Print a newline character to create
-				   a new line */
+				 * a new line
+				 * */
 	}
 }
