@@ -7,22 +7,21 @@
  *
  * Description: This function calculates and prints the
  * last digit of the input integer 'n'.
+ * If 'n' is negative , the last digit is printed as a
+ * positive value.
  *
- * Return: The last digit of 'n'.
+ * Return: The value of the last digit of 'n'.
 */
 
 int print_last_digit(int n)
 {
-	int lastDigit;
+	int last_digit = n % 10; /* Calculate the last digit */
 
-	/* Calculate the abslute value of 'n' for consistency */
-	if (n < 0)
+	if (last_digit < 0)
 	{
-		n = -n;
+		last_digit *= -1; /* Ensure last_digit is positive for printing */
 	}
 
-	lastDigit = n % 10; /* Calculate the last digit */
-
-	_putchar(lastDigit + '0'); /* Print the last digit as a character */
-	return (lastDigit); /* Return the last digit as an intger */
+	_putchar(last_digit + '0'); /* Print the last digit as a character */
+	return (last_digit); /* Return the last digit as an integer */
 }
