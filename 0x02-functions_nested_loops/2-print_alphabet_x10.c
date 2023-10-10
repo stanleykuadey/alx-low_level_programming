@@ -25,6 +25,6 @@ void print_alphabet_x10(void)
 		
 		_putchar('\n'); /* Print a newline character to create
 				 * a new line
-				 * */
+				*/
 	}
 }
