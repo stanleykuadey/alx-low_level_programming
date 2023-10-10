@@ -19,7 +19,7 @@ int main(void)
 	/* Loop through each character in the 'str' array */
 	for (ch = 0; ch < 8; ++ch)
 	{
-		_putchar(str[ch[); /*Call the _putchar function
+		_putchar(str[ch]); /*Call the _putchar function
 				     to print the current character */
 	}
 
