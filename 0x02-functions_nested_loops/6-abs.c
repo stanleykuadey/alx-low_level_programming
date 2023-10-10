@@ -5,7 +5,8 @@
  *
  * @n: The integer for which to compute the absolute value.
  *
- * Description: This function computes the absolute value of the input integer 'n'.
+ * Description: This function computes the absolute value
+ * of the input integer 'n'.
  *
  * Return: The absolute value of 'n'.
 */
