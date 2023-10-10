@@ -14,7 +14,7 @@ void jack_bauer(void)
 
 	for (hr = 0; hr <= 23; ++hr)
 	{
-		for (minute = 0; minute <= 59; minute++)
+		for (min = 0; min <= 59; ++min)
 		{
 			_putchar((hr / 10) + 48); /* Print tens digit of the hour */
 			_putchar((hr % 10) + 48); /* Print ones digit of the hour */
