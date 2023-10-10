@@ -72,7 +72,7 @@ int print_sign(int n);
  *
  * Return: The absolute value of 'n'.
 */
-int -abs(int n);
+int _abs(int n);
 
 /**
  * print_last_digit - Prints the last digit of a number
