@@ -13,7 +13,8 @@
 
 int _isalpha(int c)
 {
-	/* Check if 'c' is within the ASCII range of lowercase letters (97-122)
+	/*
+	 * Check if 'c' is within the ASCII range of lowercase letters (97-122)
 	 * or within the ASCII range of uppercase letters (65-90)
 	*/
 	if ((c >= 97 && c <= 122) || (c >= 65 && c <= 90))
