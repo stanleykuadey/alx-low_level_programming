@@ -3,23 +3,24 @@
 /**
  * jack_bauer - Prints every minute of the day of Jack Bauer.
  *
- * Description: This function prints every minute of the day in the format "HH:MM,"
- * starting from 00:00 to 23:59.
+ * Description: This function prints every minute of the day
+ * from 00:00 to 23:59 in the "HH:MM" format, where HH represents
+ * the hour and MM represents the minute.
 */
 
 void jack_bauer(void)
 {
-	int house, minute;
+	int min, hr:
 
-	for (hour = 0; hour <= 23; hour++)
+	for (hr = 0; hr <= 23; ++hr)
 	{
 		for (minute = 0; minute <= 59; minute++)
 		{
-			_putchar((hour / 10) + '0'); /* Print tens digit of the hour */
-			_putchar((hour % 10) + '0'); /* Print ones digit of the hour */
+			_putchar((hr / 10) + 48); /* Print tens digit of the hour */
+			_putchar((hour % 10) + 48); /* Print ones digit of the hour */
 			_putchar(':');
-			_putchar((minute / 10) + '0'); /* Print tens digit of the minute */
-			_putchar((minute % 10) + '0'); /* Print ones digit of the minute */
+			_putchar((minute / 10) + 48); /* Print tens digit of the minute */
+			_putchar((minute % 10) + 48); /* Print ones digit of the minute */
 			_putchar('\n'); /* Print a newline character to create a new line */
 		}
 	}
