@@ -6,7 +6,8 @@
  * @a: The first input integer.
  * @b: The second input integer.
  *
- * Description: This function takes two integers 'a' and 'b' and returns their sum.
+ * Description: This function takes two integers 'a' and 'b'
+ * and returns their sum.
  *
  * Return: The sum of 'a' and 'b'.
 */
