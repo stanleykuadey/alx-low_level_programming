@@ -15,7 +15,8 @@ void times_table(void)
 	for (num = 0; num <= 9; ++num)
 	{
 		_putchar(48); /* Print the first digit '0'
-				 before the table. */
+			       * before the table.
+			      */
 
 		for (mult = 1; mult <= 9; ++mult)
 		{
@@ -35,10 +36,12 @@ void times_table(void)
 						*/
 			else
 				_putchar((prod / 10) + 48); /* Print the
-							       first digit. */
+							     * first digit.
+							    */
 			_putchar((prod % 10) + 48); /* Print the second digit */
 		}
 		_putchar ('\n'); /* Move to the next line after
-				    each row of the table. */
+				  * each row of the table.
+				  */
 	}
 }
