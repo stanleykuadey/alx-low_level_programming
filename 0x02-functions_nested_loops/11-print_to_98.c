@@ -1,6 +1,7 @@
 #include "main.h"
 #include <stdio.h> /* Includ the standard input/output library for
-		      printf */
+		    * printf
+		   */
 
 /**
  * print_to_98 - Print numbers from 'n' to 98, separated by a comma
@@ -22,19 +23,23 @@ void print_to_98(int n)
 		for (count = n; count > 98; --count)
 		{
 			printf("%d, ", count); /* Print numbers from
-						  'n' to 99 */
+						* 'n' to 99
+						*/
 		}
 	}
 	else
 	{
 		for (count = n; count < 98; ++count) /* Print numbers
-							 from 'n' to 97 */
+						      * from 'n' to 97
+						     */
 		{
 			printf("%d, ", count); /* Print numbers from 'n'
-						  to 97 */
+						*  to 97
+						*/
 		}
 	}
 
 	printf("98\n"); /* Print the final number (98) followed by a
-			   new line */
+			 * new line
+			*/
 }
